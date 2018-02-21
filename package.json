@@ -1,0 +1,23 @@
+{
+  "name": "cypress-ssl-repro",
+  "version": "1.0.0",
+  "description": "🔒 Repro for a [Cypress.io](https://www.cypress.io/) `ERR_SSL_VERSION_OR_CIPHER_MISMATCH` issue",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up",
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cypress-io/cypress-ssl-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cypress-io/cypress-ssl-repro/issues"
+  },
+  "homepage": "https://github.com/cypress-io/cypress-ssl-repro#readme",
+  "devDependencies": {
+    "cypress": "^2.0.3"
+  }
+}
